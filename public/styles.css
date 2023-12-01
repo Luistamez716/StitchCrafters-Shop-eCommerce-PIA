@@ -1,0 +1,239 @@
+    .list-vertical .list-inline-item {
+        display: block; /* Esto hará que cada elemento de la lista se muestre en una nueva línea */
+        margin-bottom: 15px;
+    }
+
+    .list-vertical .list-inline-item .btn-size {
+        width: 300px; /* Establece un ancho fijo para todos los botones */
+        height: 50px; /* Establece un alto fijo para todos los botones */
+        display: inline-block; /* Asegura que el botón respete el ancho y alto definidos */
+        text-align: center; /* Centra el texto dentro del botón */
+        line-height: 35px; /* Ajusta la altura de la línea al alto del botón para centrar el texto verticalmente */
+        margin-bottom: 10px; /* Espacio entre botones */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Añade una sombra sutil para efecto 3D */
+        border-radius: 5px; /* Bordes redondeados para los botones */
+        font-size: 20px; /* Tamaño de fuente uniforme para todos los botones */
+        white-space: nowrap; /* Evita que el texto se ajuste y provoque diferentes alturas */
+        overflow: hidden; /* Previene desbordamiento de contenido */
+        text-overflow: ellipsis; /* Añade puntos suspensivos si el texto es demasiado largo */
+    }
+    
+    .bordered-image {
+        border: 4px solid; /* Cambia el grosor y el color según tus preferencias */
+    }
+  
+    #producto-cart {
+        max-width: 100px; /* O el tamaño que prefieras */
+        height: auto; /* Para mantener la proporción de la imagen */
+    }
+
+    #logo-stitchcrafters {
+        max-width: 100px; /* O el tamaño que prefieras */
+        height: auto; /* Para mantener la proporción de la imagen */
+    }
+
+    #miIdEspecial body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    #miIdEspecial header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+        background-color: #f1f1f1;
+    }
+
+    #miIdEspecial nav a, .icons a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #333;
+    }
+
+    #miIdEspecial aside {
+        float: left;
+        width: 20%;
+        background-color: #f9f9f9;
+        height: calc(100vh - 100px);
+        padding: 1em;
+    }
+
+    #miIdEspecial aside ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #miIdEspecial aside li {
+        margin-bottom: 10px;
+    }
+
+    #miIdEspecial aside a {
+        text-decoration: none;
+        color: #555;
+    }
+
+    #miIdEspecial main {
+        float: right;
+        width: 80%;
+        padding: 1em;
+    }
+
+    #miIdEspecial footer {
+        clear: both;
+        background-color: #222;
+        color: #f9f9f9;
+        padding: 1em 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #miIdEspecial footer h3 {
+        margin-top: 0;
+    }
+    
+    #miIdEspecial footer a {
+        text-decoration: none;
+        color: #f9f9f9;
+        margin-bottom: 10px;
+        display: block;
+    }
+    
+    #miIdEspecial .featured-image {
+        margin: 20px 0;
+    }
+    
+    #placeholder-image {
+        width: 100%;
+        height: auto;
+        background-color: #e0e0e0; /* Un fondo temporal hasta que agregues una imagen real */
+        display: block;
+    }
+    
+    #miIdEspecial .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #miIdEspecial .product-item {
+        width: calc(33.33% - 20px);
+        margin-bottom: 20px;
+    }
+    
+    #miIdEspecial .product-image {
+        width: 100%;
+        height: auto;
+        background-color: #e0e0e0; /* Fondo temporal */
+        display: block;
+    }
+    
+    
+    #miIdEspecial .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+    
+    #miIdEspecial .images {
+        flex: 1;
+        margin-right: 50px;
+    }
+    
+    #miIdEspecial .small-images {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    #miIdEspecial .small-images img, .main-image img {
+        width: 100%;
+    }
+    
+    #miIdEspecial .design-tools {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    #miIdEspecial .product-info {
+        flex: 1.5;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    #miIdEspecial .price {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    #miIdEspecial .color-options, .size-options {
+        display: flex;
+        gap: 10px;
+    }
+    
+    #miIdEspecial .color {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    #miIdEspecial .color.red {
+        background-color: red;
+    }
+    
+    #miIdEspecial .color.blue {
+        background-color: blue;
+    }
+    
+    #miIdEspecial .size-options button {
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    #miIdEspecial .buy-btn {
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    #miIdEspecial .cart-content {
+        padding: 50px;
+    }
+
+    #miIdEspecial table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 30px;
+    }
+
+    #miIdEspecial table th, table td {
+        padding: 15px;
+        border: 1px solid #e0e0e0;
+    }
+
+    #miIdEspecial .cart-totals {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #miIdEspecial .cart-totals div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #miIdEspecial .cart-totals button {
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
